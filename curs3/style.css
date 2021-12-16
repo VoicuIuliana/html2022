@@ -1,0 +1,17 @@
+div{
+    width: 500px;
+    border: 2px solid red;
+}
+div p{
+    text-align: center;
+    color: rgb(73, 27, 117);
+}
+div, p{
+    text-align: center;
+    color: rgb(73, 27, 117);
+}
+/*CODUL ESTE APLICAT COPILULUI DIRECT A LUI DIV*/
+div > p{ 
+    text-align: center;
+    color: rgb(73, 27, 117);
+}
