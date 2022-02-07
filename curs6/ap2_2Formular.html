@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formular Contact</h1>
+    <form>
+        <label for="">Nume</label>
+        <input type="text" name="nume" id="nume"> <br><br>
+
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10" maxlength="160"></textarea>
+        <br><br>
+        <label for="categorie">Categorie mesaj</label>
+        <select name="categorie" id="categorie">
+            <option value="0">Selecteaza...</option>
+            <option value="1">Suport</option>
+            <option value="2">Vanzari</option>
+            <option value="3">Retur Comenzi</option>
+        </select>
+        <br><br>
+        <label for="produse">Categorie produse</label>
+        <select name="produse" id="produse" multiple>
+            <option value="televizor">Televizor</option>
+            <option value="telefon">Telefon</option>
+            <option value="tableta">Tableta</option>
+        </select><br><br>
+
+        <input type="submit" value="Trimite datele">
+
+    </form>
+</body>
+
+</html>

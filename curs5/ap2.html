@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 5-Ap2 Responsive</title>
+
+    <style>
+        /*smartfone (portrait and landscape)------*/
+        @media (max-width: 641px) {
+            .mob {
+                display: block;
+            }
+
+            div:not(.mob) {
+                display: none;
+            }
+        }
+
+        /*Ipads (portrait and landscape)------*/
+        @media (max-width: 641px) and (max-width: 768px) {
+            .tab {
+                display: block;
+            }
+
+            div:not(.tab) {
+                display: none;
+            }
+
+        }
+
+        /*Desktops and laptops(portrait and landscape)------*/
+        @media (max-width: 769px) and (max-width:1223px) {
+            .des {
+                display: block;
+            }
+
+            div:not(.des) {
+                display: none;
+            }
+
+        }
+
+        /*large screens  (portrait and landscape)------*/
+        @media (max-width: 1224px) {
+            .lap {
+                display: block;
+            }
+
+            div:not(.lap) {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="des">
+        <h1>Suntem de desktop</h1>
+        <img src="images/images/design.jpg" width="100%" alt="">
+    </div>
+    <div class="lap">
+        <h1>Suntem de laptop</h1>
+        <img src="images/images/laptop.jpg" width="100%" alt="">
+    </div>
+    <div class="tab">
+        <h1>Suntem de tableta</h1>
+        <img src="images/images/tab.jpg" width="100%" alt="">
+    </div>
+    <div class="mob">
+        <h1>Suntem de mobil</h1>
+        <img src="images/images/mobil.jpg" width="100%" alt="">
+    </div>
+</body>
+
+</html>

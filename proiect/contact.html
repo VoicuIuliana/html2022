@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <favicon></favicon>
+    <title>CSS Grid Site</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta description="Prima aplicatie in cursul 2">
+    <meta name="keywords" content="HTML, JavaScript, CSS">
+    <meta author="Voicu Iuliana">
+</head>
+
+<body>
+    <!-- Header Showcase -->
+    <nav>
+        <ul>
+            <li><a class="active" href="acasa.html">Acasa</a></li>
+            <li><a href="portofoliu.html">Portofoliu</a></li>
+            <li><a href="despre.html">Despre Noi</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h1 style="color: green;">Formular contact</h1>
+                <form id="formjob" action="">
+                    <div>
+                        <div>
+                            <label class="nume" for="">Nume</label>
+                            <input class="camp" type="text" name="nume" required>
+                        </div>
+                        <div>
+                            <label class="nume" for="">Prenume</label>
+                            <input class="camp" type="text" name="prenume" required>
+                        </div>
+                        <div></div>
+                        <label class="nume" for="">Telefon</label>
+                        <input class="camp" type="tel" name="telefon" required>
+                    </div>
+                    <div>
+                        <label class="nume" for="">Email</label>
+                        <input class="camp" type="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label class="nume" for="">Parola</label>
+                        <input class="camp" type="password" name="parola" required>
+                    </div>
+                    <div>
+                        <label class="nume" for="">Sex</label>
+                        <input type="radio" name="sex" id="m" required>M</input>
+                        <input type="radio" name="sex" id="f" required>F</input>
+                        <input type="radio" name="sex" id="n" required>N</input>
+                    </div>
+                    <div>
+                        <label class="nume" for="job">Tip job:</label>
+                        <input type="checkbox" name="full" id="full" required>Full time</input>
+                        <input type="checkbox" name="part" id="part" required>Part time</input>
+                    </div>
+                    <div>
+                        <label class="nume" for="oras">Orasul:</label>
+                        <select name="oras" id="oras"><br>
+                            <option value="0">Selecteaza...</option>
+                            <option value="Bucuresti">Bucuresti</option>
+                            <option value="Iasi">Iasi</option>
+                            <option value="Basov">Brasov</option>
+                            <option value="Cluj">Cluj</option>
+                            <option value="Giurgiu">Giurgiu</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mesaj">Mesaj</label>
+                        <textarea name="mesaj" id="mesaj" cols="30" rows="10" maxlength="160"></textarea>
+                    </div>
+                    <input type="checkbox" name="opt2" id="opt2" checked="">Sunt de acord cu termeni si conditii<br>
+                    <br>
+                    <input class="bt" type="submit" value="Inregistrare">
+                    <input class="bt" type="submit" value="Trimite datele">
+                    <input class="bt" type="reset" value="Anuleaza">
+                </form>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>My Project</div>
+        <div>Project By <a href="" target="_blank">LinkAcademy</a></div>
+    </footer>
+</body>
+
+</html>

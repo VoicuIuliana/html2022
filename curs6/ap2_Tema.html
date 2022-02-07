@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formular contact</h1>
+<form>
+    <label for="categorie">Orasul</label>
+    <select name="categorie" id="categorie">
+        <option value="0">Selecteaza orasul</option>
+        <option value="1">Bucuresti</option>
+        <option value="2">Cluj</option>
+        <option value="3">Bolintin</option>
+    </select><br><br>
+
+    <label for="inregistrare">Cursuri la care doriti sa va inscrieti:</label>
+        <select  multiple class="form-control" name="cursuri" id="cursuri">
+            <option value="html">HTML</option>
+            <option value="java">JAVA</option>
+            <option value="php">PHP</option>
+            <option value="photoshop">Photoshop</option>
+        </select><br><br>
+
+        
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10" maxlength="160"></textarea>
+        <br><br>
+        <label for="cv">CV</label>
+        <input type="file" name="form-control-file"></input>
+        <fieldset class="">
+        <legend>Program cursuri</legend>
+        <input type="radio" name="categorie" id="dimineata">dimineata</inpu>
+        <input type="radio" name="categorie" id="la pranz">la pranz</input>
+        <input type="radio" name="categorie" id="seara">seara</input>
+    </fieldset>
+        <br><br>
+        <input type="checkbox" name="opt2" id="opt2" checked="">Termeni si conditii</input>
+        <input type="checkbox" name="opt1" id="opt1">Va abonati la newsletter <br><br>
+
+        <input type="submit" value="Cauta">Trimite datele</input>
+
+
+</form>
+</body>
+</html>
